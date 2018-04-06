@@ -1,0 +1,29 @@
+/* pages/scanResult/index.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-between;
+}
+.password-title, .tips {
+  flex-grow: 1;
+  width: 100%;
+  text-align: center;
+  padding: 60rpx 0;
+}
+.password-content {
+  flex-grow: 8;
+  font-size: 200rpx;
+  font-weight: 700;
+}
+.tips {
+  font-size: 32rpx;
+}
+.tips .tips-action {
+  margin-top: 20rpx;
+}
+.tips .tips-action .tips-href {
+  color: #FFFF00;
+}
